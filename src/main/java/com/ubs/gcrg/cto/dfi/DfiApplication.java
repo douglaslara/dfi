@@ -18,7 +18,7 @@ public class DfiApplication {
     InventoryService getInventoryService() {
         return new InventoryService() {
             @Override
-            public List<String> findFlows() {
+            public List<String> listFlows() {
                 return Collections.singletonList("Hello World");
             }
         };

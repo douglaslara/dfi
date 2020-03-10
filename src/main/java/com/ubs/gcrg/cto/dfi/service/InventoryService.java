@@ -4,6 +4,6 @@ import java.util.List;
 
 public interface InventoryService {
 
-    List<String> findFlows();
+    List<String> listFlows();
 
 }

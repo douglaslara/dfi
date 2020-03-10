@@ -16,6 +16,6 @@ public class DataFlowInventoryEndpoint {
 
   @GetMapping
   public List<String> getInventory() {
-    return inventoryService.findFlows();
+    return inventoryService.listFlows();
   }
 }

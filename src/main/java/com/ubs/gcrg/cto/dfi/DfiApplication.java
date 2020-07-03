@@ -14,14 +14,4 @@ public class DfiApplication {
         SpringApplication.run(DfiApplication.class, args);
     }
 
-    @Bean
-    InventoryService getInventoryService() {
-        return new InventoryService() {
-            @Override
-            public List<String> listFlows() {
-                return Collections.singletonList("Hello World");
-            }
-        };
-    }
-
 }

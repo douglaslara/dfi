@@ -10,22 +10,22 @@ import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMock
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.web.servlet.MockMvc;
 
-//@SpringBootTest
-//@AutoConfigureMockMvc
+@SpringBootTest
+@AutoConfigureMockMvc
 class DfiApplicationSanityTests {
 
-//	@Autowired
-//	private MockMvc mockMvc;
-//
-//	@Test
-//	void contextLoads() {
-//	}
-//
-//	@Ignore
-//	@Test
-//	public void shouldReturnHttpOk() throws Exception {
-//		mockMvc.perform(get("/api/dfi")).andExpect(status().isOk());
-//	}
+	@Autowired
+	private MockMvc mockMvc;
+
+	@Test
+	void contextLoads() {
+	}
+
+	@Ignore
+	@Test
+	public void shouldReturnHttpOk() throws Exception {
+		mockMvc.perform(get("/api/dfi")).andExpect(status().isOk());
+	}
 
 
 }

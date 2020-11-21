@@ -1,4 +1,33 @@
 Data Flow Inventory
 =
 
-teste
+```json
+{
+    source : {
+
+    }
+    target : {
+        
+    }
+    interface : {
+
+    }
+    integration : {
+
+    }
+    dataquality : {
+        checks : []
+        dcp : {
+
+        }
+    }
+    data : {
+
+    }
+    guid :
+    sdlc : [
+
+    ]
+
+}
+```
